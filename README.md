@@ -1,6 +1,7 @@
 # Colab_Auto_Reconnect
 
 Chrome WebStore Link : [CoAuRe](https://chrome.google.com/webstore/detail/colab-auto-reconnect/nbcihfbfamjlfiopdcemmohoojdecjid)
+
 A Chrome extension that automatically reconnects your Colab's ongoing session without clicking button.
 
 Are you a budding Data Scientist? 

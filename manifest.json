@@ -1,0 +1,24 @@
+{
+  "name": "Colab Auto Reconnect",
+  "version": "1.0",
+  "description": "Automatically reconnects to Colab's ongoing session without clicking button.",
+  "author" : "Zoheb Abai",
+  "short_name" : "CoAuRe",
+  "incognito": "split",
+  "content_scripts": [
+    {
+      "matches": ["*://*.research.google.com/*"],
+      "run_at": "document_idle",
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": ["tabs","*://*.research.google.com/*"],
+  "icons":
+    {
+      "16": "images/colab_reconnect16.png",
+      "32": "images/colab_reconnect32.png",
+      "64": "images/colab_reconnect64.png",
+      "128": "images/colab_reconnect128.png"
+    },
+  "manifest_version": 2
+}

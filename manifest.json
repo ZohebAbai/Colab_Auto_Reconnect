@@ -14,11 +14,11 @@
   ],
   "permissions": ["tabs","*://*.research.google.com/*"],
   "icons":
-    {
+  {
       "16": "images/colab_reconnect16.png",
       "32": "images/colab_reconnect32.png",
       "64": "images/colab_reconnect64.png",
       "128": "images/colab_reconnect128.png"
     },
-  "manifest_version": 2
-}
+    "manifest_version": 2
+  }

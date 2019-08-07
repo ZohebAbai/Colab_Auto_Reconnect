@@ -12,7 +12,7 @@ MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 var connect = document.getElementById('connect')
 var ok = document.getElementById('ok')
 
-function check(){
+setTimeout(function check(){
 	if (typeof(connect) != 'undefined' && connect != null)
 	{
 		if(connect.textContent.includes("Reconnect") || connect.textContent.includes("RECONNECT")){
@@ -25,8 +25,7 @@ function check(){
 		console.log('reconnecting...')
 	 	ok.click()
 	}
-}
-
+}, 3000);
 
 var observer = new MutationObserver(function(mutations, observer) {
 	check()

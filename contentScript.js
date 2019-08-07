@@ -1,7 +1,7 @@
 // contentScript
 // @name Colab Auto Reconnect
 // @version 1.0.2
-// @description Automatically reconnects to Colab's ongoing session without clicking button.
+// @description Automatically reconnects to Colab's ongoing session without manual clicking.
 // @author Zoheb Abai
 // @license MIT
 

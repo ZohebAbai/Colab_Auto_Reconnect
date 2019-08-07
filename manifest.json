@@ -1,7 +1,7 @@
 {
   "name": "Colab Auto Reconnect",
-  "version": "1.0.1",
-  "description": "Automatically reconnects to Colab's ongoing session without clicking button.",
+  "version": "1.0.2",
+  "description": "Automatically reconnects to Colab's ongoing session without manual clicking.",
   "author" : "Zoheb Abai",
   "short_name" : "CoAuRe",
   "incognito": "split",

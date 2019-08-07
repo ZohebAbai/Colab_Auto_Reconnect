@@ -1,6 +1,6 @@
 // contentScript
 // @name Colab Auto Reconnect
-// @version 1.0.1
+// @version 1.0.2
 // @description Automatically reconnects to Colab's ongoing session without clicking button.
 // @author Zoheb Abai
 // @license MIT
@@ -12,7 +12,7 @@ MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 var connect = document.getElementById('connect')
 var ok = document.getElementById('ok')
 
-setTimeout(function check(){
+function check(){
 	if (typeof(connect) != 'undefined' && connect != null)
 	{
 		if(connect.textContent.includes("Reconnect") || connect.textContent.includes("RECONNECT")){
@@ -25,7 +25,7 @@ setTimeout(function check(){
 		console.log('reconnecting...')
 	 	ok.click()
 	}
-}, 3000);
+},
 
 var observer = new MutationObserver(function(mutations, observer) {
 	check()

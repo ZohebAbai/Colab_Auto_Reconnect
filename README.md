@@ -2,7 +2,9 @@
 A Chrome extension that automatically reconnects your Colab's ongoing session without clicking button.
 
 Are you a budding Data Scientist? 
+
 Love to use free resources? 
+
 Require GPU for your Deep Learning projects? 
 
 If 'Yes', then you must be using Google Colab Jupyter Notebook with free GPU and TPU services. And if you are an admirer of Colab (like me), then you must be dependending a lot on Colab Notebooks. 

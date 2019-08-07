@@ -17,3 +17,7 @@ Everything's Good about Colab, except one thing. It gets disconnected a lot and 
 Colab Auto Reconnect - automatically reconnects your ongoing session whenever it gets disconnected without any manual intervention. Now you can go for a good night's sleep without bothering about your Colab session getting disconnected for the next 12 hours. 
 
 If this free chrome extension helped you, then please give good ratings.
+
+Upcoming Features:
+* Add a popup to show runtime
+* Add a notification alert

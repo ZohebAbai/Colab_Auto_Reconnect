@@ -1,4 +1,4 @@
-# Colab Auto Reconnect
+# Colab Auto Reconnect ![logo](images/colab_reconnect32.png)
 
 **Version** : 1.0.3
 

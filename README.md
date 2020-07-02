@@ -1,8 +1,8 @@
 # Colab Auto Reconnect ![logo](images/colab_reconnect32.png)
 
-**Version** : 1.0.3
+**Version** : 1.1.0
 
-**Last Updated** : July 5th, 2020
+**To be Released** : July 10th, 2020 (tentative)
 
 Chrome WebStore Link : [CoAuRe](https://chrome.google.com/webstore/detail/colab-auto-reconnect/nbcihfbfamjlfiopdcemmohoojdecjid)
 

@@ -23,6 +23,12 @@ Everything's Good about Colab, except one thing. It gets disconnected a lot and 
 2. Comes with an inbuilt timer, which can be used for getting notified (Alert with Sound) when your tasks gets over, especially during end of your Model Training at Colab.
 
 
+**To Check If it's working, do the following:**
+1. Click Option + ⌘ + J (on macOS), or Shift + CTRL + J (on Windows/Linux) to open Chrome Dev Console.
+2. If you see 'reconnecting...' at the bottom, that means it's working. It should look something like this:
+![Console](images/console.png)
+
+
 *It would be my pleasure if a developer like you contributes to this project.*
 
 *If this free chrome extension helped you, then please give good ratings at Chrome Web Store.*

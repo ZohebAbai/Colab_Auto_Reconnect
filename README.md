@@ -2,7 +2,7 @@
 
 **Version** : 1.1.0
 
-**To be Released** : July 10th, 2020 (tentative)
+**To be Released** : July 4th, 2020 
 
 Chrome WebStore Link : [CoAuRe](https://chrome.google.com/webstore/detail/colab-auto-reconnect/nbcihfbfamjlfiopdcemmohoojdecjid)
 

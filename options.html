@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="images/colab_reconnect32.png" />
+    <title>CoAuRe Timer Settings</title>
+    <script src="options.js"></script>
+
+    <link rel="stylesheet" href="stylesheets/styles_options.css">
+    <link rel="stylesheet" href="stylesheets/styles_button.css">
+  </head>
+  <body>
+    <h1>CoAuRe Timer Settings</h1>
+
+    <h2>Form of alert</h2>
+    <label class="container">Pop-up alert box
+      <input type="radio" value="alert" name="alert_type">
+      <span class="bubble"></span>
+    </label>
+    <label class="container">Side notification
+      <input type="radio" value="notification" name="alert_type">
+      <span class="bubble"></span>
+    </label>
+
+
+    <h2>Alert sound</h2>
+    <label class="container">On
+      <input type="radio" value="on" name="sound">
+      <span class="bubble"></span>
+    </label>
+    <label class="container">Off
+      <input type="radio" value="off" name="sound">
+      <span class="bubble"></span>
+    </label>
+
+    <h2>Countdown alert</h2>
+    <p>Alert when there are 10 seconds remianing?</p>
+    <label class="container">Yes
+      <input type="radio" value="yes" name="extra_alert">
+      <span class="bubble"></span>
+    </label>
+    <label class="container">No
+      <input type="radio" value="no" name="extra_alert">
+      <span class="bubble"></span>
+    </label>
+
+
+    <p><button id="save_btn" class="push_button blue">Save Settings</button></p>
+
+    <p id = "save_confirmation"></p>
+
+  </body>
+</html>

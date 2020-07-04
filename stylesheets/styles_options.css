@@ -1,0 +1,87 @@
+html{
+	background: rgb(250,250,250);
+	padding:20px;
+}
+
+body {
+	
+	background:#f0f0f0;
+	text-align: center;
+	width: 450px;
+	margin: auto;
+	border: 2px outset rgb(180,180,180);
+	padding: 30px;
+}
+
+button {
+	margin: auto;
+}
+
+h2 {
+	padding-top: 20px;
+}
+
+
+/* Radio buttons */
+/* Customize the label (the container) */
+.container {
+  display: flex;
+  margin-left: 40%;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .bubble {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .bubble {
+  background-color: #FFA07A;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.bubble:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .bubble:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .bubble:after {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}

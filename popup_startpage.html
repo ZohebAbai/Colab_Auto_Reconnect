@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Start Countdown</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/styles_button.css">
+    <script src="popup_startpage.js"></script>
+  </head>
+  <body>
+    <a href="https://zohebabai.github.io/Colab_Auto_Reconnect/">
+        <img src="./images/colab_reconnect32.png" alt="https://github.com/ZohebAbai/Colab_Auto_Reconnect" width="32" height="32">
+    </a>
+    <h1>CoAuRe Timer</h1>
+    <p><strong> Colab Session exists for 12 hours!</strong></p>
+    <h4> Right-click "Options" to manage Timer Settings </h4>
+    <button id="switch_mode" class = "push_button blue"> Switch Mode</button>
+
+
+    <div id = "event_countdown_mode" style="display: block;">
+      <h2> COUNTDOWN MODE </h2>
+      <h4> Input a date and time to count down to</h4>
+      <input id="datetime" type="datetime-local" required>
+    </div>
+
+    <div id ="timer_mode" style="display: none;">
+      <h2> TIMER MODE </h2>
+      <h4> Input the timer duration</h4>
+      <input id="time_value" type="number" required>
+      <select id = "time_measure">
+        <option value = "minutes">minutes</option>
+        <option value = "hours">hours</option>
+      </select>
+    </div>
+
+    <p id="error_msg"></p>
+
+    <button id="countdown_btn" class="push_button blue">Start</button>
+    <p id = "countdown_display"></p>
+  	<p id="countdown_confirmation"></p>
+
+  </body>
+</html>

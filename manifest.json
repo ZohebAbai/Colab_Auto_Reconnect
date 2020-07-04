@@ -1,18 +1,26 @@
 {
   "name": "Colab Auto Reconnect",
-  "version": "1.0.2",
-  "description": "Automatically reconnects to Colab's ongoing session without manual clicking.",
+  "version": "1.1.0",
+  "description": "Automatically reconnects to Colab's ongoing session without manually clicking.",
   "author" : "Zoheb Abai",
   "short_name" : "CoAuRe",
   "incognito": "split",
+  "manifest_version": 2,
+
   "content_scripts": [
     {
-      "matches": ["*://*.research.google.com/*"],
+      "matches": ["*://colab.research.google.com/*"],
       "run_at": "document_idle",
-      "js": ["contentScript.js"]
+      "js": ["content.js"]
     }
   ],
-  "permissions": ["tabs","*://*.research.google.com/*"],
+  "background": {
+    "scripts": [
+      "background.js"
+      ],
+    "persistent": false
+  },
+  "permissions": ["tabs", "*://colab.research.google.com/*", "background", "alarms", "storage", "notifications"],
   "icons":
   {
       "16": "images/colab_reconnect16.png",
@@ -20,5 +28,11 @@
       "64": "images/colab_reconnect64.png",
       "128": "images/colab_reconnect128.png"
     },
-    "manifest_version": 2
-  }
+  "browser_action": {
+    "default_icon": {
+        "16": "images/colab_reconnect16.png"
+    },
+    "default_popup": "popup_startpage.html"
+},
+"options_page": "options.html"
+}

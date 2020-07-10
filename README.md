@@ -10,6 +10,8 @@ Mozilla Firefox Addon Link : [CoAuRe](https://addons.mozilla.org/en-US/firefox/a
 
 GitHub Pages : [CoAuRe](https://zohebabai.github.io/Colab_Auto_Reconnect/)
 
+![Timer](images/timer.png)
+
 **Are you a budding Data Scientist?**
 
 **Love to use free resources?**
@@ -28,6 +30,7 @@ Everything's Good about Colab, except one thing. It gets disconnected a lot and 
 **To Check If it's working, do the following:**
 1. Click Option + ⌘ + J (on macOS), or Shift + CTRL + J (on Windows/Linux) to open Chrome Dev Console.
 2. If you see 'reconnecting...' at the bottom, that means it's working. It should look something like this:
+
 ![Console](images/console.png)
 
 

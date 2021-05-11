@@ -1,5 +1,9 @@
 # Colab Auto Reconnect ![logo](images/colab_reconnect32.png)
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/nbcihfbfamjlfiopdcemmohoojdecjid?label=Chrome%20Users&style=for-the-badge)
+
+![Mozilla Add-on](https://img.shields.io/amo/users/colab-auto-reconnect?label=Firefox%20Users&style=for-the-badge)
+
 **Version** : 1.1.0
 
 **Last Update** : July 4th, 2020

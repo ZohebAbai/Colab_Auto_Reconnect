@@ -1,20 +1,19 @@
 # Colab Auto Reconnect ![logo](images/colab_reconnect32.png)
 
-![Chrome Web Store](https://img.shields.io/chrome-web-store/users/nbcihfbfamjlfiopdcemmohoojdecjid?label=Chrome%20Users&style=for-the-badge)
-
-![Mozilla Add-on](https://img.shields.io/amo/users/colab-auto-reconnect?label=Firefox%20Users&style=for-the-badge)
-
-**Version** : 1.1.0
-
-**Last Update** : July 4th, 2020
-
-Google Chrome WebStore Link : [CoAuRe](https://chrome.google.com/webstore/detail/colab-auto-reconnect/nbcihfbfamjlfiopdcemmohoojdecjid)
-
-Mozilla Firefox Addon Link : [CoAuRe](https://addons.mozilla.org/en-US/firefox/addon/colab-auto-reconnect/)
-
-GitHub Pages : [CoAuRe](https://zohebabai.github.io/Colab_Auto_Reconnect/)
+| :exclamation:  The author no more maintains the extension and repository. |
+|-----------------------------------------|
 
 ![Timer](images/timer.png)
+
+| Chrome | Firefox |
+| :----: | :----: |
+| ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/nbcihfbfamjlfiopdcemmohoojdecjid?label=Chrome%20Users&style=for-the-badge)| ![Mozilla Add-on](https://img.shields.io/amo/users/colab-auto-reconnect?label=Firefox%20Users&style=for-the-badge)|
+| **Version** : 1.1.0 | **Version** : 1.1.1 |
+| **Debut** : July 25th, 2019 | **Debut** : July 4th, 2020 |
+| **Final Update** : July 4th, 2020 | **Final Update** : May 11th, 2021 |
+| Google Chrome WebStore Link : [CoAuRe](https://chrome.google.com/webstore/detail/colab-auto-reconnect/nbcihfbfamjlfiopdcemmohoojdecjid) | Mozilla Firefox Addon Link : [CoAuRe](https://addons.mozilla.org/en-US/firefox/addon/colab-auto-reconnect/) |
+
+
 
 **Are you a budding Data Scientist?**
 
@@ -38,8 +37,6 @@ Everything's Good about Colab, except one thing. It gets disconnected a lot and 
 ![Console](images/console.png)
 
 
-**Thank you**
+**Thank you for all the support!**
 
-*It would be my pleasure if a developer like you contributes to this project.*
-
-*If this free chrome/firefox extension helped you, then please give good ratings at Web/AddOns Store.*
+*If this free chrome/firefox extension helped you, then please leave good ratings at Web/AddOns Store.*
